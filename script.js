@@ -1,11 +1,17 @@
 function showMessage() {
-  async function showMessage() {
-  try {
-    const response = await fetch('https://storage.googleapis.com/your-bucket-name/message.txt');
-    const message = await response.text();
-    alert(message);
-  } catch (error) {
-    alert("Unable to fetch message from Google Cloud. Please try again later.");
-  }
-}
+  alert("Hello Ashwini!and Sakshi Your site is live on the cloud 🚀
+
+📊 College Subject Marks – Ashwini & Sakshi
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+
+
+
+🧾 Summary
+- Ashwini: Strong in Data Structures and Computer Science
+- Sakshi: Excellent in Operating Systems and Machine Learning ");   } 
 }
